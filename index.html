@@ -7,41 +7,49 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
-    <img src="logo.png" alt="Logo Glow & Go" class="logo">
+    <img src="logo.png" alt="Logo de Glow & Go" class="logo">
     <h1>Glow & Go by Natou Style</h1>
+    <p>Votre boutique en ligne de mode, cosmétiques et accessoires à prix abordable 🌟</p>
   </header>
 
-  <section class="infos">
-    <h2>Contact</h2>
-    <p>Email : <a href="mailto:banghous2002@gmail.com">banghous2002@gmail.com</a></p>
-    <p>WhatsApp : <a href="https://wa.me/224625689241" target="_blank">+224 625 689 241</a></p>
-    <p>Facebook : <a href="https://facebook.com/Glow & Go by Natou Style" target="_blank">Glow & Go by Natou Style</a></p>
-    <p>TikTok : <a href="https://www.tiktok.com/@glow.go.by.natou" target="_blank">@glow.go.by.natou</a></p>
-    <p>Shopify : Glow Go by Natou</p>
-  </section>
+  <main>
+    <section class="intro">
+      <h2>Bienvenue !</h2>
+      <p>Découvrez nos vêtements tendances, cosmétiques de qualité et accessoires stylés ✨</p>
+      <a href="https://wa.me/224625689241" class="btn">Commander sur WhatsApp</a>
+    </section>
 
-  <section class="produits">
-    <h2>Nos Produits (5€ - 20€)</h2>
-    <ul>
-      <li>Robe tendance – 15€</li>
-      <li>Lip gloss hydratant – 7€</li>
-      <li>Sac à main élégant – 18€</li>
-    </ul>
-  </section>
+    <!-- 💬 Facebook Page Plugin -->
+    <section class="facebook">
+      <h2>Suivez-nous sur Facebook</h2>
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v18.0" 
+        nonce="FbPluginNatou"></script>
 
-  <section class="commande">
-    <h2>Passer une commande</h2>
-    <form id="formulaireCommande">
-      <input type="text" placeholder="Nom complet" required>
-      <input type="email" placeholder="Adresse email" required>
-      <input type="text" placeholder="Produit choisi" required>
-      <button type="submit">Envoyer</button>
-    </form>
-    <p id="messageCommande" class="message"></p>
-  </section>
+      <div class="fb-page"
+        data-href="https://www.facebook.com/GlowGobyNatouStyle"
+        data-tabs="timeline"
+        data-width=""
+        data-height=""
+        data-small-header="false"
+        data-adapt-container-width="true"
+        data-hide-cover="false"
+        data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/GlowGobyNatouStyle" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/GlowGobyNatouStyle">Glow & Go by Natou Style</a>
+        </blockquote>
+      </div>
+    </section>
+  </main>
 
   <footer>
+    <p>Suivez-nous : 
+      <a href="https://www.facebook.com/GlowGobyNatouStyle" target="_blank">Facebook</a> |
+      <a href="https://www.tiktok.com/@glowgobynatoustyle" target="_blank">TikTok</a>
+    </p>
     <p>&copy; 2025 Glow & Go by Natou Style</p>
   </footer>
 
